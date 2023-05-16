@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Grid Properties</title>
+	<style type="text/css">
+		.main{
+			width: 700px;
+			height: 600px;
+			border: 3px solid black;
+			margin: auto;
+			display: grid;
+			padding: 10px;
+			grid-template-columns: auto auto auto;
+			/*grid-column-gap: 10px;
+			grid-row-gap: 10px;*/
+			grid-gap: 10px 10px;
+
+		}
+		.main div{
+			padding: 50px;
+			background-color: aqua;
+		}
+		#col1{
+			grid-column-start: 1;
+			grid-column-end: 3;
+		}
+		#col3{
+			grid-row-start: 3;
+			grid-row-end: 5;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div id="col1">1</div>
+		<div>2</div>
+		<div id="col3">3</div>
+		<div>4</div>
+		<div >5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div>9</div>
+
+	</div>
+
+</body>
+</html>

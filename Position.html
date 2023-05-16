@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Position Property</title>
+	<style type="text/css">
+
+		.main{
+			width: 800px;
+			height: 600px;
+			border: 2px solid black;
+			padding-left: 50px;
+			margin: auto;
+		}
+		.col1{
+
+			width: 300px;
+			height: 300px;
+			border: 3px solid black;
+			float: left;
+			text-align: center;
+			font-size: 50px;
+			background-color: rgb(77, 200, 0);
+
+
+		}
+		.col2{
+
+			width: 300px;
+			height: 300px;
+			border: 3px solid black;
+			float: left;
+			text-align: center;
+			font-size: 50px;
+			position: absolute;
+			top: 70px;
+			left: 200px;
+			background-color: red;
+			color: white;
+		}
+		.col3{
+
+			width: 300px;
+			height: 300px;
+			border: 3px solid black;
+			float: left;
+			text-align: center;
+			font-size: 50px;
+			background-color: rgb(100, 100, 100);
+		}
+		.main2{
+			width: 800px;
+			height: 650px;
+			border: 2px solid black;
+			padding-left: 50px;
+			margin: auto;
+		}
+		.col4{
+			width: 300px;
+			height: 300px;
+			border: 3px solid black;
+			float: left;
+			text-align: center;
+			font-size: 50px;
+			background-color: rgb(200, 200, 200)
+
+		}
+		.col5{
+			width: 300px;
+			height: 300px;
+			border: 3px solid black;
+			float: left;
+			position: relative;
+			right: 100px;
+			text-align: center;
+			font-size: 50px;
+			color: white;
+			background-color: rgb(10, 100, 00)
+
+		}
+		.col6{
+			width: 300px;
+			height: 300px;
+			border: 3px solid black;
+			float: left;
+			text-align: center;
+			font-size: 50px;
+			background-color: rgb(200, 10, 200)
+		}
+		.main3{
+			width: 800px;
+			height: 600px;
+			border: 2px solid black;
+			padding-left: 50px;
+			margin: auto;
+		    } 
+		.col7{
+			width: 300px;
+			height: 300px;
+			border: 3px solid black;
+			float: left;
+			text-align: center;
+			font-size: 50px;
+			color: white;
+			background-color: rgb(0, 100, 200);
+
+
+		}
+		.col8{
+			width: 300px;
+			height: 300px;
+			border: 3px solid black;
+			float: left;
+			text-align: center;
+			font-size: 50px;
+			position: fixed;
+			left: 100px;
+			background-color: rgb(100, 0, 200);
+		}
+		.col9{
+			width: 300px;
+			height: 300px;
+			border: 3px solid black;
+			float: left;
+			text-align: center;
+			font-size: 50px;
+			background-color: rgb(100, 100, 200);
+		}
+		.main4{
+			width: 800px;
+			height: 250px;
+			border: 2px solid black;
+			padding-left: 50px;
+			overflow: scroll;
+			overflow-x: hidden;
+			margin: auto;
+
+		}
+		.header{
+			width: 800px;
+			height: 50px;
+			background-color: red;
+			text-align: center;
+			position: sticky;
+			top: 1px;
+
+		}
+		.p{
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	    <!-- Absolute -->
+	<div class="main">
+
+	<div class="col1"> 1</div>
+	<div class="col2">  Absolute</div>
+	<div class="col3"> 3</div>
+
+    </div>
+    </br>
+
+	  <!-- Relative -->
+	<div style="clear:both;"></div>
+	
+	<div class="main2">
+	
+	<div class="col4"> 4</div>
+	<div class="col5"> Relative</div>
+	<div class="col6"> 6</div>
+    
+    </div>
+    </br>
+
+      <!-- fixed -->
+	<div style="clear:both;"></div>
+	
+	<div class="main3">
+	
+	<div class="col7"> Fixed</div>
+	<div class="col8"> 8</div>
+	<div class="col9"> 9</div>
+    
+    </div>
+    </br>
+    <!-- Sticky -->
+	<div style="clear:both;"></div>
+	
+	<div class="main4">
+	
+	<div class="header">
+		HOME | ABOUT | GALLERY | CONTACT
+		
+	</div>
+	<p class="p">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	
+    
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		
+	
+    
+	</p>
+    
+    </div>
+
+
+</body>
+</html>
